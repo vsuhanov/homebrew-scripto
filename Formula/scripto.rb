@@ -1,17 +1,17 @@
 class Scripto < Formula
   desc "CLI for managing and executing custom scripts with interactive TUI"
   homepage "https://github.com/vsuhanov/scripto"
-  version "0.0.24"
+  version "0.0.25"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/vsuhanov/scripto/releases/download/v0.0.24/scripto-v0.0.24-darwin-arm64.tar.gz"
-      sha256 "f32b663c0141c6d71da8eb3c913ba55d7af3da7636a82baf6dc47a8bd81ed58c"
+      url "https://github.com/vsuhanov/scripto/releases/download/v0.0.25/scripto-v0.0.25-darwin-arm64.tar.gz"
+      sha256 "87e70432e320b9b871d6afd6d2e1631b7fc09550c6d06a589a7403ba597b472b"
     end
     on_intel do
-      url "https://github.com/vsuhanov/scripto/releases/download/v0.0.24/scripto-v0.0.24-darwin-amd64.tar.gz"
-      sha256 "e2a15af643eac8b50cbc1e1cfa211b3bc9596b005f538cf58ab815f213b670ec"
+      url "https://github.com/vsuhanov/scripto/releases/download/v0.0.25/scripto-v0.0.25-darwin-amd64.tar.gz"
+      sha256 "fa348c0413a43b0af4e0e82935ddaca0b6abe5ab8eda5cd4dc9864c430056aa4"
     end
   end
 
